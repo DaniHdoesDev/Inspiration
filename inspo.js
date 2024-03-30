@@ -19,8 +19,8 @@ const quotes = [
     "I thrive on obstacles. If I'm told that it can't be told, then I push harder. - Issa Rae",
     "I have standards I don't plan on lowering for anybody … including myself. - Zendaya",
     "I always believed that when you follow your heart or your gut, when you really follow the things that feel great to you, you can never lose, because settling is the worst feeling in the world. - Rihanna",
-    " Hell no to my fears. No to impostor syndrome, no to believing I’m not enough. - Danielle Brooks",
-    " I’m convinced that we Black women possess a special indestructible strength that allows us to not only get down, but to get up, to get through, and to get over. - Janet Jackson",
+    "Hell no to my fears. No to impostor syndrome, no to believing I’m not enough. - Danielle Brooks",
+    "I’m convinced that we Black women possess a special indestructible strength that allows us to not only get down, but to get up, to get through, and to get over. - Janet Jackson",
     "Sometimes you've got to let everything go — purge yourself. If you are unhappy with anything … whatever is bringing you down, get rid of it. Because you'll find that when you're free, your true creativity, your true self comes out. - Tina Turner",
     "You wanna know what scares people? Success. When you don't make moves and when you don't climb up the ladder, everybody loves you because you're not competition. - Nicki Minaj",
     "I'd rather regret the risks that didn't work out than the chances I didn't take at all. - Simone Biles",
@@ -37,19 +37,14 @@ const quotes = [
     "We need to reshape our own perception of how we view ourselves. We have to step up as women to take the lead. - Beyonce",
     "Failure is an important part of your growth and developing resilience. Don’t be afraid to fail. - Michelle Obama",
     "Before I do anything, I practice it for a while, and then when I know it’s the bomb, then I’m gonna present it to everybody. - Megan Thee Stallion",
-    "You just gotta use the sunset as a reset button and start over in the morning with every chance you get to open your eyes. - Victoria Monet";
+    "You just gotta use the sunset as a reset button and start over in the morning with every chance you get to open your eyes. - Victoria Monet"
 
   ];
 
-  
-  
   // Generate random quote
   function generateQuote() {
     // Pull quote from array
-    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-    
-    
+   const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
     document.getElementById("quote-text").textContent = randomQuote;
-  }
-
+  };
   console.log(quotes);
