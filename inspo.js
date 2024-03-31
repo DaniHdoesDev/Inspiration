@@ -1,3 +1,5 @@
+//Quotes that keep me motivated.
+//TODO: Add more quotes
 const quotes = [
     "I am learning all the time. The tombstone will be my diploma. - Eartha Kitt",
     "I only move forwards, never backwards, darling. - Grace Jones",
@@ -38,12 +40,13 @@ const quotes = [
     "Failure is an important part of your growth and developing resilience. Don’t be afraid to fail. - Michelle Obama",
     "Before I do anything, I practice it for a while, and then when I know it’s the bomb, then I’m gonna present it to everybody. - Megan Thee Stallion",
     "You just gotta use the sunset as a reset button and start over in the morning with every chance you get to open your eyes. - Victoria Monet"
-
   ];
+
+
 
   // Generate random quote
   function generateQuote() {
-    // Pull quote from array
+// Pull quote from array and randomize
    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
     document.getElementById("quote-text").textContent = randomQuote;
   };

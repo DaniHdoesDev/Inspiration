@@ -4,7 +4,7 @@ body, html {
     height: 100%;
     overflow: hidden;
   }
-  
+  /*Moving confetti background*/
   .animated-bg {
     position: absolute;
     top: 0;
@@ -28,7 +28,7 @@ body, html {
     padding: 20px;
     color: black;
   }
-
+/*Card container*/
 .card {
     /* Shows a card effect */
     box-shadow: 0 16px 28px 0 rgba(46, 220, 233, 0.5);
@@ -46,8 +46,7 @@ body, html {
   }
 
 
- 
-  
+
   /* On mouse-over, add a deeper shadow */
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -71,7 +70,7 @@ body, html {
     color: black;
     text-shadow:6px 6px 6px rgb(26, 205, 211);
   }
-
+/*button shadow*/
   #quote-button{
     color:black;
     box-shadow:6px 6px 6px rgb(4, 13, 14);
@@ -81,10 +80,10 @@ body, html {
   body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    background-color: black;
-
-
+    background-color: black
   }
+
+
  /* Information from me on the project */
   .explanation{
     color: black;
@@ -99,7 +98,7 @@ body, html {
     text-shadow:6px 6px 6px rgb(26, 205, 211);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/*image between copyright and email*/
 .hearts{
     width: 30px;
     height: 30px;
