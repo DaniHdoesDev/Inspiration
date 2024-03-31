@@ -1,27 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .animated-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("confetti.jpg");
+    background-size: 200% auto;
+    animation: slide 5s linear infinite;
+    z-index: -1;
+  }
+  
+  @keyframes slide {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 -100%; }
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: black;
+  }
+
 .card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    /* Shows a card effect */
+    box-shadow: 0 16px 28px 0 rgba(46, 220, 233, 0.5);
+    transition: 0.5s;
     border-radius: 5px; /* 5px rounded corners */
-    width: 40%;
-    background-color:crimson;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    text-decoration: black;
+    background-color: crimson;
+    padding: 16px 16px 16px 16px;
+    text-shadow:6px 6px 6px rgb(243, 219, 8);
+    opacity: 1;
 
   }
+
+
+ 
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
-
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
-  /* Add some padding inside the card container */
+  /* Red card and quote */
   .container {
     color:crimson;
-    padding: 2px 16px;
-    
-    
+    text-decoration: black;
+    padding: 6px 6px 6px 6px;
+    font-size: medium;
+    text-align: center;
+    width: 40px;
+    height:40px;
+    text-shadow:6px 6px 6px rgb(160, 160, 12);
   }
+
+
+   /* Title of page */
+  h1{
+    color: black;
+    text-shadow:6px 6px 6px rgb(26, 205, 211);
+  }
+
+  #quote-button{
+    color:black;
+    box-shadow:6px 6px 6px rgb(4, 13, 14);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
   body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: black;
+    text-align: center;
+    background-color: black;
+
+
   }
+ /* Information from me on the project */
+  .explanation{
+    color: black;
+  }
+
+  
+
+   /* Email  */
+  footer{
+    text-align:center;
+    color: black;
+    text-shadow:6px 6px 6px rgb(26, 205, 211);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hearts{
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+}
+
+/*Email address*/
+a{
+    color: crimson;
+}

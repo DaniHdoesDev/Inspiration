@@ -47,4 +47,4 @@ const quotes = [
    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
     document.getElementById("quote-text").textContent = randomQuote;
   };
-  console.log(quotes);
+  
